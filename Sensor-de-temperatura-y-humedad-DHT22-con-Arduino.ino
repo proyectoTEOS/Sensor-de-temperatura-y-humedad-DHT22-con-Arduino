@@ -1,15 +1,3 @@
-# Sensor de temperatura y humedad del sensor DHT22
-Obtén la temperatura y humedad relativa del sensor DHT22 con Arduino.
-
-### Requisitos
-- Tener el IDE de [Arduino](https://www.arduino.cc/en/Main/Software) (o el de tu preferencia) con la versión más actual
-- Tener el material para hacer el proyecto
-- Contar con la librería [DHT](https://github.com/adafruit/DHT-sensor-library)
-
-### Código
-**[Aquí](https://github.com/proyectoTEOS/Sensor-de-temperatura-y-humedad-DHT22-con-Arduino/blob/master/Sensor-de-temperatura-y-humedad-DHT22-con-Arduino.ino)** podrás obtener el link del código, también dejaremos una vista previa aquí abajo.
-
-```c++
 /*
   Created by TEOS
   Domotic with Arduino https://goo.gl/btZpjs
@@ -54,9 +42,3 @@ void loop() {
 
   Serial.println(resultSerialT);
 }
-
-```
-
-### Diagrama
-El siguiente esquemático muestra como se debe conectar todos los componentes con la placa.
-![](https://github.com/proyectoTEOS/Sensor-de-temperatura-y-humedad-DHT22-con-Arduino/blob/master/Sensor-de-temperatura-y-humedad-DHT22-con-Arduino.jpg)
